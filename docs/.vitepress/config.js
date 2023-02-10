@@ -6,6 +6,7 @@ export default {
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Pills', link: '/pills/' },
+      { text: 'Team', link: '/team/' },
       { text: 'GitHub', link: 'https://github.com/onebeyond/css-pills' },
     ],
     sidebar: [
@@ -19,6 +20,10 @@ export default {
     ],
     editLink: {
       pattern: 'https://github.com/onebeyond/css-pills/edit/main/docs/:path',
+    },
+    footer: {
+      message: 'Released under the MIT License.',
+      copyright: 'Copyright © 2023 - One Beyond',
     },
   },
 };
