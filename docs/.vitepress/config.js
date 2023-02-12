@@ -6,7 +6,7 @@ export default {
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Pills', link: '/pills/' },
-      { text: 'Team', link: '/team/' },
+      { text: 'Team', link: '/team' },
       { text: 'GitHub', link: 'https://github.com/onebeyond/css-pills' },
     ],
     sidebar: [
