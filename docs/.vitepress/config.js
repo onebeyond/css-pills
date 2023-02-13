@@ -1,4 +1,5 @@
 export default {
+  base: '/css-pills/',
   title: 'CSS Pills',
   description: 'A collection of CSS pills',
   lastUpdated: true,
