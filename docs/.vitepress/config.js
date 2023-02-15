@@ -26,5 +26,10 @@ export default {
       message: 'Released under the MIT License.',
       copyright: 'Copyright © 2023 - One Beyond',
     },
+    algolia: {
+      appId: '5D6FRGC6T9',
+      apiKey: 'e04451b589c4840900545435e2742361',
+      indexName: 'css_pills',
+    },
   },
 };

@@ -1,5 +1,5 @@
-# Pill 3  
+# Pill 3
 
-Con T.
+Demo pill 3
 
 > 123
