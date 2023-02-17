@@ -38,7 +38,7 @@ export default defineConfig({
     algolia: {
       appId: '5D6FRGC6T9',
       apiKey: 'e04451b589c4840900545435e2742361',
-      indexName: 'ob_css_pills',
+      indexName: 'csspills',
     },
   },
   async buildEnd(siteConfig) {
