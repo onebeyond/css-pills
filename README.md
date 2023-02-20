@@ -1,6 +1,6 @@
 # CSS Pills 💊 ™️
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-3-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 A collection of CSS pills for learning and reference.
@@ -29,6 +29,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <tr>
       <td align="center" valign="top" width="14.28%"><a href="https://baumannzone.dev"><img src="https://avatars.githubusercontent.com/u/5422102?v=4?s=100" width="100px;" alt="Jorge Baumann"/><br /><sub><b>Jorge Baumann</b></sub></a><br /><a href="https://github.com/onebeyond/css-pills/commits?author=baumannzone" title="Code">💻</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/eduvilla97"><img src="https://avatars.githubusercontent.com/u/32673341?v=4?s=100" width="100px;" alt="eduvilla97"/><br /><sub><b>eduvilla97</b></sub></a><br /><a href="https://github.com/onebeyond/css-pills/commits?author=eduvilla97" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/ArshiaSaleem98"><img src="https://avatars.githubusercontent.com/u/45390300?v=4?s=100" width="100px;" alt="ArshiaSaleem98"/><br /><sub><b>ArshiaSaleem98</b></sub></a><br /><a href="https://github.com/onebeyond/css-pills/commits?author=ArshiaSaleem98" title="Code">💻</a></td>
     </tr>
   </tbody>
 </table>
