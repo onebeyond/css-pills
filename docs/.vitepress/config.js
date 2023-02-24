@@ -8,7 +8,7 @@ import { defineConfig } from 'vitepress';
 export default defineConfig({
   base: '/css-pills/',
   title: 'CSS Pills',
-  description: 'A collection of CSS pills',
+  description: 'Quick and concise CSS tips in 5 minutes or less',
   lastUpdated: true,
   // markdown: { lineNumbers: true, },
   themeConfig: {

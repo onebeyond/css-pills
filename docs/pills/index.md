@@ -1,6 +1,6 @@
 ---
-title: Pills
-description: A collection of short tutorials
+title: CSS Pills 💊
+description: Clear and concise CSS explanations in 5 minutes or less.
 ---
 
 # Introduction
