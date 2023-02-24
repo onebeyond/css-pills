@@ -6,8 +6,8 @@ hero:
   text: Quick and clear CSS tips in 5 min
   tagline: Boost your web design with bite-sized CSS knowledge, one pill at a time
   image:
-    src: /1.jpg
-    alt: Rambito
+    src: /logo.png
+    alt: CSS Pills logo
   actions:
     - theme: brand
       text: Get Started
