@@ -6,12 +6,26 @@ import { defineConfig } from 'vitepress';
 // import algoliasearch from 'algoliasearch';
 
 export default defineConfig({
+  head: [
+    [
+      'link',
+      {
+        rel: 'icon',
+        type: 'image/png',
+        href: '/favicon.png',
+      },
+    ],
+  ],
   base: '/css-pills/',
   title: 'CSS Pills',
   description: 'Quick and concise CSS tips in 5 minutes or less',
   lastUpdated: true,
   // markdown: { lineNumbers: true, },
   themeConfig: {
+    logo: {
+      src: '/favicon.png',
+      alt: 'CSS Pills logo',
+    },
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Pills', link: '/pills/' },

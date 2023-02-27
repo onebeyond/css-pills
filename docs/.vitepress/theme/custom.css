@@ -1,7 +1,9 @@
 /* TODO CHANGE CUSTOM CSS */
 
-/* --vp-c-brand: hsl(77 100% 60%);
-  --vp-c-brand-light: hsl(77 100% 70%);
-  --vp-c-brand-lighter: hsl(77 100% 85%);
-  --vp-c-brand-dark: hsl(77 100% 45%);
-  --vp-c-brand-darker: hsl(77 100% 35%); */
+:root {
+  --vp-c-brand: hsl(198, 93%, 60%);
+  --vp-c-brand-light: hsl(198 100% 70%);
+  --vp-c-brand-lighter: hsl(198 100% 85%);
+  --vp-c-brand-dark: hsl(198 100% 45%);
+  --vp-c-brand-darker: hsl(198 100% 35%);
+}
