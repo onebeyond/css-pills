@@ -58,7 +58,7 @@ export default defineConfig({
       {
         name: 'twitter:image',
         content:
-          'https://baumannzone-dev-og.vercel.app/api/dynamic-image?username=baumannzone',
+          'https://baumannzone-dev-og.vercel.app/api/dynamic-image?username=onebeyond',
       },
     ],
   ],
