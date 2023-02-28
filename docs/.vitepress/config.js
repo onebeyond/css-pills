@@ -28,10 +28,13 @@ export default defineConfig({
         content:
           'https://baumannzone-dev-og.vercel.app/api/param?title=baumannzone.dev',
       },
-      // Twitter
       {
-        name: 'twitter:card',
-        content: 'summary_large_image',
+        property: 'og:url',
+        content: 'https://onebeyond.github.io/css-pills/',
+      },
+      {
+        property: 'og:type',
+        content: 'website',
       },
     ],
   ],

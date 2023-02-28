@@ -2,6 +2,10 @@
 title: What is HSL color format in CSS and how to use it?
 description: Learn how to use HSL color in CSS, the color format used by CSS experts that you might not know.
 tags: ['color', 'format']
+head:
+  - - meta
+    - property: 'og:image'
+      content: https://baumannzone-dev-og.vercel.app/api/param?title=baumannzone.dev
 ---
 
 # What is HSL color format in CSS and how to use it
