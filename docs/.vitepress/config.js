@@ -14,6 +14,25 @@ export default defineConfig({
         type: 'image/png',
         href: '/favicon.png',
       },
+      // Open graph
+      {
+        property: 'og:title',
+        content: 'CSS Pills',
+      },
+      {
+        property: 'og:description',
+        content: 'Quick and concise CSS tips in 5 minutes or less',
+      },
+      {
+        property: 'og:image',
+        content:
+          'https://baumannzone-dev-og.vercel.app/api/param?title=baumannzone.dev',
+      },
+      // Twitter
+      {
+        name: 'twitter:card',
+        content: 'summary_large_image',
+      },
     ],
   ],
   base: '/css-pills/',
