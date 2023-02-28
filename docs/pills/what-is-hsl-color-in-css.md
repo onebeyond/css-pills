@@ -5,7 +5,7 @@ tags: ['color', 'format']
 head:
   - - meta
     - property: 'og:image'
-      content: https://baumannzone-dev-og.vercel.app/api/param?title=baumannzone.dev
+      content: https://baumannzone-dev-og.vercel.app/api/dynamic-image?username=baumannzone
 ---
 
 # What is HSL color format in CSS and how to use it

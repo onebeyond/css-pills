@@ -14,27 +14,51 @@ export default defineConfig({
         type: 'image/png',
         href: '/favicon.png',
       },
-      // Open graph
+    ],
+    // open graph
+    [
+      'meta',
       {
         property: 'og:title',
         content: 'CSS Pills',
       },
+    ],
+    [
+      'meta',
       {
         property: 'og:description',
         content: 'Quick and concise CSS tips in 5 minutes or less',
       },
+    ],
+    [
+      'meta',
       {
         property: 'og:image',
         content:
-          'https://baumannzone-dev-og.vercel.app/api/param?title=baumannzone.dev',
+          'https://baumannzone-dev-og.vercel.app/api/dynamic-image?username=baumannzone',
       },
+    ],
+    [
+      'meta',
       {
         property: 'og:url',
         content: 'https://onebeyond.github.io/css-pills/',
       },
+    ],
+    // twitter
+    [
+      'meta',
       {
-        property: 'og:type',
-        content: 'website',
+        name: 'twitter:card',
+        content: 'summary_large_image',
+      },
+    ],
+    [
+      'meta',
+      {
+        name: 'twitter:image',
+        content:
+          'https://baumannzone-dev-og.vercel.app/api/dynamic-image?username=baumannzone',
       },
     ],
   ],
