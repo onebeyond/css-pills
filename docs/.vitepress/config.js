@@ -34,8 +34,7 @@ export default defineConfig({
       'meta',
       {
         property: 'og:image',
-        content:
-          'https://baumannzone-dev-og.vercel.app/api/dynamic-image?username=baumannzone',
+        content: 'https://ob-css-pills-og.vercel.app/api/og',
       },
     ],
     [
@@ -57,8 +56,7 @@ export default defineConfig({
       'meta',
       {
         name: 'twitter:image',
-        content:
-          'https://baumannzone-dev-og.vercel.app/api/dynamic-image?username=baumannzone',
+        content: 'https://ob-css-pills-og.vercel.app/api/og',
       },
     ],
   ],

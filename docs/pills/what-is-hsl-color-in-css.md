@@ -5,7 +5,10 @@ tags: ['color', 'format']
 head:
   - - meta
     - property: 'og:image'
-      content: https://baumannzone-dev-og.vercel.app/api/dynamic-image?username=baumannzone
+      content: https://ob-css-pills-og.vercel.app/api/og?title=What%20is%20HSL%20color%20format%20in%20CSS%20and%20how%20to%20use%20it
+  - - meta
+    - name: 'twitter:image'
+      content: https://ob-css-pills-og.vercel.app/api/og?title=What%20is%20HSL%20color%20format%20in%20CSS%20and%20how%20to%20use%20it
 ---
 
 # What is HSL color format in CSS and how to use it
