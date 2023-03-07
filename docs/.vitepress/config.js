@@ -65,6 +65,7 @@ export default defineConfig({
         defer: true,
         'data-site': 'SNEUCKSC',
         'data-included-domains': 'https://onebeyond.github.io/css-pills/',
+        'data-honor-dnt': true,
       },
     ],
   ],
