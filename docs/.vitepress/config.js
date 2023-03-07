@@ -44,7 +44,6 @@ export default defineConfig({
         content: 'https://onebeyond.github.io/css-pills/',
       },
     ],
-    // twitter
     [
       'meta',
       {
@@ -57,6 +56,15 @@ export default defineConfig({
       {
         name: 'twitter:image',
         content: 'https://ob-css-pills-og.vercel.app/api/og',
+      },
+    ],
+    [
+      'script',
+      {
+        src: 'https://cdn.usefathom.com/script.js',
+        defer: true,
+        'data-site': 'SNEUCKSC',
+        'data-included-domains': 'https://onebeyond.github.io/css-pills/',
       },
     ],
   ],
