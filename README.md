@@ -1,5 +1,5 @@
 # CSS Pills 💊 ™️
-<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/onebeyond/css-pills/deploy.yml?label=deploy&logo=github&style=flat-square) <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/badge/all_contributors-3-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
