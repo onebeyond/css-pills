@@ -64,7 +64,7 @@ export default defineConfig({
         src: 'https://cdn.usefathom.com/script.js',
         defer: true,
         'data-site': 'SNEUCKSC',
-        'data-included-domains': 'https://onebeyond.github.io/css-pills/',
+        'data-included-domains': 'https://onebeyond.github.io/*',
         'data-honor-dnt': true,
       },
     ],
