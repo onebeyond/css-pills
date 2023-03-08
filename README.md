@@ -9,6 +9,8 @@ A collection of CSS pills for learning and reference.
 
 This is a collection of **CSS Pills** for your daily use. It's a collection of CSS snippets or tricks that you can use in your projects.
 
+![CSS Pills](https://ob-css-pills-og.vercel.app/api/og)
+
 ## What is a pill?
 
 A pill is a small trick or good practice that you can use in your projects. Each pill is usually presented in a 5 min talk format.
