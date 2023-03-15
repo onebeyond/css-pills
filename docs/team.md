@@ -33,6 +33,14 @@ const members = [
       { icon: 'github', link: 'https://github.com/ArshiaSaleem98' },
     ]
   },
+  {
+    avatar: 'https://www.github.com/arturogbruno.png',
+    name: 'Arturo Gómez',
+    title: 'Maintainer',
+    links: [
+      { icon: 'github', link: 'https://github.com/arturogbruno' },
+    ]
+  }
 ]
 </script>
 
