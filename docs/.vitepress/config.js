@@ -101,45 +101,13 @@ export default defineConfig({
       message: 'Released under the MIT License.',
       copyright: 'Copyright © 2023 - One Beyond',
     },
-    // algolia: {
-    //   appId: '5D6FRGC6T9',
-    //   apiKey: 'e04451b589c4840900545435e2742361',
-    //   indexName: 'csspills',
-    // },
+    algolia: {
+      appId: 'WD40FDK2NM',
+      apiKey: '6dcec7234bbdb0a5f6f45c4210a03809',
+      indexName: 'css-pills',
+    },
     socialLinks: [
       { icon: 'github', link: 'https://github.com/onebeyond/css-pills' },
     ],
   },
-  // async buildEnd(siteConfig) {
-  //   try {
-  //     const { pages } = siteConfig;
-  //     const pillsPages = pages.filter((page) => page.includes('pills/'));
-
-  //     const pagesData = pillsPages.map((page) => {
-  //       const pageContent = fs.readFileSync(
-  //         path.join(__dirname, `../${page}`),
-  //         'utf-8'
-  //       );
-
-  //       const { attributes } = fm(pageContent);
-  //       return attributes;
-  //     });
-
-  //     const client = algoliasearch(
-  //       siteConfig.site.themeConfig.algolia.appId,
-  //       'xxx'
-  //     );
-  //     const index = client.initIndex(
-  //       siteConfig.site.themeConfig.algolia.indexName
-  //     );
-  //     await index.replaceAllObjects(pagesData, {
-  //       autoGenerateObjectIDIfNotExist: true,
-  //     });
-
-  //     const aws = await index.search('AWS');
-  //     console.log('aws: ', aws);
-  //   } catch (error) {
-  //     console.log(error);
-  //   }
-  // },
 });
