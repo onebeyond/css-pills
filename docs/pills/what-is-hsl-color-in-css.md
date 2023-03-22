@@ -1,14 +1,21 @@
+<script setup>
+  import PostAuthors from '../.vitepress/components/PostAuthors.vue'
+</script>
+
 ---
+
 title: What is HSL color format in CSS and how to use it?
 description: Learn how to use HSL color in CSS, the color format used by CSS experts that you might not know.
 tags: ['color', 'format']
 head:
-  - - meta
-    - property: 'og:image'
-      content: https://ob-css-pills-og.vercel.app/api/og?title=What%20is%20HSL%20color%20format%20in%20CSS%20and%20how%20to%20use%20it
-  - - meta
-    - name: 'twitter:image'
-      content: https://ob-css-pills-og.vercel.app/api/og?title=What%20is%20HSL%20color%20format%20in%20CSS%20and%20how%20to%20use%20it
+
+- - meta
+  - property: 'og:image'
+    content: https://ob-css-pills-og.vercel.app/api/og?title=What%20is%20HSL%20color%20format%20in%20CSS%20and%20how%20to%20use%20it
+- - meta
+  - name: 'twitter:image'
+    content: https://ob-css-pills-og.vercel.app/api/og?title=What%20is%20HSL%20color%20format%20in%20CSS%20and%20how%20to%20use%20it
+
 ---
 
 # What is HSL color format in CSS and how to use it
@@ -118,3 +125,5 @@ When the user hovers over the button, the saturation increases to `80%` creating
 When the user clicks on the button, the lightness decreases to `40%`, creating a darker and more subdued shade of blue.
 
 By using the `HSL` color format and adjusting the saturation and lightness levels, we were able to create a button that changes color based on it's state, making it more interactive and engaging for users.
+
+<PostAuthors :authors="['baumannzone', 'eduvilla97', 'arshiasaleem98']
