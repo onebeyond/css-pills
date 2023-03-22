@@ -3,19 +3,9 @@
     <p class="written-by">Written by</p>
     <div class="authors-wrapper">
       <div class="authors">
-        <a
-          v-for="author in authors"
-          class="author-link"
-          :href="`http://www.github.com/${author}`"
-          :title="`View ${author}'s profile on GitHub`"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <img
-            class="author-image"
-            :src="`http://www.github.com/${author}.png`"
-            :alt="author"
-          />
+        <a v-for="author in authors" class="author-link" :href="`http://www.github.com/${author}`"
+          :title="`View ${author}'s profile on GitHub`" target="_blank" rel="noopener noreferrer">
+          <img class="author-image" :src="`http://www.github.com/${author}.png`" :alt="author" />
         </a>
       </div>
     </div>
@@ -39,10 +29,12 @@ export default {
   font-weight: 600;
   padding-block-start: 1rem;
 }
+
 .authors-wrapper {
   display: inline-block;
   width: fit-content;
 }
+
 .authors {
   display: flex;
 }
@@ -55,6 +47,7 @@ export default {
 
 .author-link:hover {
   z-index: 1;
+  transform: scale(1.3);
 }
 
 .author-link:hover .author-image {
@@ -65,7 +58,7 @@ export default {
   width: 40px;
   aspect-ratio: 1/1;
   border-radius: 50%;
-  border: 1px solid var(--vp-c-brand);
+  border: 2px solid var(--vp-c-brand);
   filter: grayscale(1);
 }
 
