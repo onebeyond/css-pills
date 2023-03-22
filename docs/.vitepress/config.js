@@ -1,9 +1,4 @@
-// import fs from 'fs';
-// import path from 'path';
 import { defineConfig } from 'vitepress';
-
-// import fm from 'front-matter';
-// import algoliasearch from 'algoliasearch';
 
 export default defineConfig({
   head: [
@@ -15,7 +10,6 @@ export default defineConfig({
         href: '/favicon.png',
       },
     ],
-    // open graph
     [
       'meta',
       {
