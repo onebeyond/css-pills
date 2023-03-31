@@ -14,3 +14,4 @@ Start improving your CSS skills today!
 ## Pill list
 
 - [What is HSL color in CSS and how to use it?](/pills/what-is-hsl-color-in-css)
+- [Understanding logical properties in CSS](/pills/understanding-logical-properties-in-css)
