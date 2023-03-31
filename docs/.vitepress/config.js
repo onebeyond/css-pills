@@ -85,6 +85,10 @@ export default defineConfig({
             text: 'What is HSL color in CSS',
             link: '/pills/what-is-hsl-color-in-css',
           },
+          {
+            text: 'Understanding Logical Properties in CSS',
+            link: '/pills/understanding-logical-properties-in-css'
+          },
         ],
       },
     ],
