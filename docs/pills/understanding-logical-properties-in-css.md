@@ -13,10 +13,9 @@ Traditional CSS properties such as `margin` and `padding` are based on physical 
 Logical properties can also be used for margins, padding, borders, and text alignment among others. They are supported in modern web browsers, although some older browsers may not support them.
 
 ## Logical properties in action
-Let's take a moment to think about the following example:
+In the following example we can see how logical properties work. Here we have the built-in styles for a `<p>` tag in Chrome. We can set the margins based on the direction of the text by using logical properties.
 
 ```css
-/* built-in styles for p tags in Chrome */
 p {
     display: block;
     margin-block-start: 1em;
@@ -26,10 +25,10 @@ p {
 }
 ```
 
-Do you notice anything strange in the properties? In English, the left side of the paragraph is the `start` of the paragraph, while the right side is the `end`. 
 
 ## Inline vs block
 
+In order to understand logical properties, you need to be familiar with the concept of inline and block elements.
 In CSS, there are two types of elements: **inline** and **block**. Inline elements are displayed on the same line as other inline elements, while block elements are displayed in a new line, one on top of the other.
 
 ![Inline vs block](/understanding-logical-properties-in-css/inline-vs-block.png)
@@ -45,7 +44,7 @@ The same applies to the `Y` axis. In English, the `Y` axis is **vertical**, whil
 
 ## Let's get sharp with writing modes
 
-In order to use logical properties, you need to be familiar with the concept of `writing-mode`. The `writing-mode` determines the direction in which text flows within an element, and can be either horizontal or vertical. 
+To understand the logical properties, first you need to know the concept of `writing-mode`. The `writing-mode` determines the direction in which text flows within an element, and can be either horizontal or vertical. 
 
 Once you understand `writing-mode`, you can start using logical properties to create more flexible and adaptable layouts, regardless of the text direction.
 
@@ -59,16 +58,7 @@ Writing modes are defined using the `writing-mode` property, which can have one 
 }
 ```
 
-For example, in English, text is written from left to right, which is known as the horizontal writing mode. However, in languages like Arabic or Hebrew, text is written from right to left, which is known as the vertical writing mode.
-
-
-
-
-
-
-BLOCK INLINE
-ejemplo españa
-ejemplo arabe
+For example, in English, text is written from left to right, which is known as the horizontal writing mode. However, in languages like Japanese, text is written from top to bottom, which is known as the vertical writing mode.
 
 ## 
 When should we use logical properties?
