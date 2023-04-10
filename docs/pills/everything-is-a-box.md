@@ -1,3 +1,24 @@
+---
+title: Everything is a box
+description: Learn about the CSS Box Model and understand why everything is a box in CSS.
+tags: ['color', 'format']
+head:
+  - - meta
+    - property: 'og:image' 
+      content: https://ob-css-pills-og.vercel.app/api/og?title=Everything%20is%20a%20box
+  - - meta
+    - name: 'twitter:image' 
+      content: https://ob-css-pills-og.vercel.app/api/og?title=Everything%20is%20a%20box
+  - - meta
+    - property: 'og:title'
+      content: 'What is the Box Model and why it matters'
+  - - meta
+    - property: 'og:description'
+      content: 'Learn about the CSS Box Model and understand why everything is a box in CSS.'
+---
+<script setup>
+  import PostAuthors from '../.vitepress/components/PostAuthors.vue'
+</script>
 # Everything is a box
 
 Welcome to the "Everything is a Box" CSS pill- your comprehensive guide to understanding the CSS Box Model and mastering the art of `box-sizing`. In this pill, we'll explore the core concepts of the Box Model, learn why it's a crucial aspect of web design, and dive into the world of `box-sizing` values. Let's get started and embrace the power of boxes!
