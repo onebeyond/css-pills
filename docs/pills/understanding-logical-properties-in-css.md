@@ -9,6 +9,12 @@ head:
   - - meta
     - name: 'twitter:image' 
       content: https://ob-css-pills-og.vercel.app/api/og?title=Understanding%20Logical%20Properties%20in%20CSS
+  - - meta
+    - property: 'og:title'
+      content: 'Understanding Logical Properties in CSS'
+  - - meta
+    - property: 'og:description'
+      content: 'Learn how to use logical properties in CSS, the properties that allow you to write CSS in a more natural way.'
 ---
 
 <script setup>

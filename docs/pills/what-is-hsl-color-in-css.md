@@ -9,8 +9,13 @@ head:
   - - meta
     - name: 'twitter:image' 
       content: https://ob-css-pills-og.vercel.app/api/og?title=What%20is%20HSL%20color%20format%20in%20CSS%20and%20how%20to%20use%20it
+  - - meta
+    - property: 'og:title'
+      content: 'What is HSL color format in CSS and how to use it?'
+  - - meta
+    - property: 'og:description'
+      content: 'Learn how to use HSL color in CSS, the color format used by CSS experts that you might not know.'
 ---
-
 <script setup>
   import PostAuthors from '../.vitepress/components/PostAuthors.vue'
 </script>
