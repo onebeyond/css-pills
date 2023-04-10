@@ -5,7 +5,7 @@
       <div class="authors">
         <a v-for="author in authors" class="author-link" :href="`http://www.github.com/${author}`"
           :title="`View ${author}'s profile on GitHub`" target="_blank" rel="noopener noreferrer">
-          <img class="author-image" :src="`http://www.github.com/${author}.png`" :alt="author" />
+          <img class="author-image" :src="`https://www.github.com/${author}.png`" :alt="author" />
         </a>
       </div>
     </div>
