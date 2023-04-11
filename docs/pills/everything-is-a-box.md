@@ -23,7 +23,7 @@ head:
 
 # Everything is a box
 
-Welcome to the "Everything is a Box" CSS pill- your comprehensive guide to understanding the CSS Box Model and mastering the art of `box-sizing`. In this pill, we'll explore the core concepts of the Box Model, learn why it's a crucial aspect of web design, and dive into the world of `box-sizing` values. Let's get started and embrace the power of boxes!
+Welcome to the "Everything is a Box" CSS pill. Your comprehensive guide to understanding the CSS Box Model and mastering the art of `box-sizing`. In this pill, we'll explore the core concepts of the Box Model, learn why it's a crucial aspect of web design, and dive into the world of `box-sizing` values. Let's get started and embrace the power of boxes!
 
 ## What is the CSS Box Model?
 
