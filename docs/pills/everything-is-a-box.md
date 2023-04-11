@@ -1,24 +1,26 @@
 ---
 title: Everything is a box
 description: Learn about the CSS Box Model and understand why everything is a box in CSS.
-tags: ['color', 'format']
+tags: ["layout", "box model"]
 head:
   - - meta
-    - property: 'og:image' 
+    - property: "og:image"
       content: https://ob-css-pills-og.vercel.app/api/og?title=Everything%20is%20a%20box
   - - meta
-    - name: 'twitter:image' 
+    - name: "twitter:image"
       content: https://ob-css-pills-og.vercel.app/api/og?title=Everything%20is%20a%20box
   - - meta
-    - property: 'og:title'
-      content: 'What is the Box Model and why it matters'
+    - property: "og:title"
+      content: "What is the Box Model and why it matters"
   - - meta
-    - property: 'og:description'
-      content: 'Learn about the CSS Box Model and understand why everything is a box in CSS.'
+    - property: "og:description"
+      content: "Learn about the CSS Box Model and understand why everything is a box in CSS."
 ---
+
 <script setup>
   import PostAuthors from '../.vitepress/components/PostAuthors.vue'
 </script>
+
 # Everything is a box
 
 Welcome to the "Everything is a Box" CSS pill- your comprehensive guide to understanding the CSS Box Model and mastering the art of `box-sizing`. In this pill, we'll explore the core concepts of the Box Model, learn why it's a crucial aspect of web design, and dive into the world of `box-sizing` values. Let's get started and embrace the power of boxes!
@@ -36,11 +38,11 @@ The CSS Box Model is a fundamental concept in web design that defines how elemen
   See the Pen <a href='https://codepen.io/carpasse/pen/LYJvPdY'>Box Model Example</a> by Your Name (<a href='https://codepen.io/carpasse'>@carpasse</a>) on <a href='https://codepen.io'>CodePen</a>.
 </iframe>
 
-## Why is the Box Model Important?
+## Why is the Box Model important?
 
 The Box Model is essential for determining the layout and visual appearance of a web page. It allows developers to control the spacing, alignment, and dimensions of elements, ensuring a consistent and responsive design.
 
-### Understanding `box-sizing` Values
+### Understanding `box-sizing` values
 
 - `content-box`. In this model, the element's width and height are calculated based only on the content, not including padding and border. This can lead to unexpected results when adding padding or borders, as the total size of the element increases.
 
@@ -65,7 +67,7 @@ Keep in mind that this is not an exhaustive list, and the default box-sizing val
 
 Using `box-sizing: border-box` ensures that the element's dimensions include the padding and border, making it easier to manage the layout and maintain consistent sizing. This is especially important for responsive designs, where elements need to adapt to different screen sizes.
 
-## How to Add `box-sizing: border-box` to Your CSS
+## How to add `box-sizing: border-box` to your CSS
 
 To set `box-sizing: border-box` as the default for all elements, you can use the following CSS rule:
 
@@ -83,7 +85,7 @@ To set `box-sizing: border-box` as the default for all elements, you can use the
 
 This rule sets the `box-sizing` property to `border-box` for the `:root` element, and then uses the `inherit` keyword for all other elements and their pseudo-elements.
 
-### Overriding box-sizing for third-Party Components
+### Overriding `box-sizing` for third-Party components
 
 With this approach, you can easily convert a third-party component to use `content-box` when necessary by targeting its top-level container:
 
@@ -95,7 +97,7 @@ With this approach, you can easily convert a third-party component to use `conte
 
 Using the `inherit` keyword allows for greater control and flexibility when working with third-party components and different box-sizing values.
 
-## Why border-box is Advised Instead of content-box
+## Why `border-box` is advised instead of content-box
 
 `border-box` is recommended over content-box for several reasons:
 
