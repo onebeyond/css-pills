@@ -107,3 +107,5 @@ Using the `inherit` keyword allows for greater control and flexibility when work
 4. **Better control over third-party components**: Using the `inherit` keyword with `box-sizing: border-box` provides more flexibility when working with third-party components, allowing for easier adjustments of their box-sizing values.
 
 In conclusion, using `box-sizing: border-box` simplifies the layout management process, ensuring a more consistent and responsive design.
+
+<PostAuthors :authors="['carpasse']" />
