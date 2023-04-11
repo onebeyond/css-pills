@@ -35,7 +35,7 @@ The CSS Box Model is a fundamental concept in web design that defines how elemen
 4. **Margin**: The space between the element's border and other elements on the page.
 
 <iframe height="450" style="width: 100%;" scrolling="no" title="Box Model Example" src="https://codepen.io/carpasse/embed/LYJvPdY?height=450&theme-id=dark&default-tab=result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
-  See the Pen <a href='https://codepen.io/carpasse/pen/LYJvPdY'>Box Model Example</a> by Your Name (<a href='https://codepen.io/carpasse'>@carpasse</a>) on <a href='https://codepen.io'>CodePen</a>.
+  See the Pen <a href='https://codepen.io/carpasse/pen/LYJvPdY'>Box Model Example</a> by Carlos Serrano (<a href='https://codepen.io/carpasse'>@carpasse</a>) on <a href='https://codepen.io'>CodePen</a>.
 </iframe>
 
 ## Why is the Box Model important?
