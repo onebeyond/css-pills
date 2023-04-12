@@ -19,7 +19,7 @@ head:
 
 <script setup>
   import PostAuthors from '../.vitepress/components/PostAuthors.vue'
-  import CodepenEmbed from '../.vitepress/components/CodepenEmbed.vue'
+  import BoxModel from '../.vitepress/components/BoxModel.vue'
 </script>
 
 # Everything is a box
@@ -35,13 +35,7 @@ The CSS Box Model is a fundamental concept in web design that defines how elemen
 3. **Border**: The line surrounding the element and its padding.
 4. **Margin**: The space between the element's border and other elements on the page.
 
-<CodepenEmbed
-  user="carpasse"
-  pen="LYJvPdY"
-  height="450"
-  title="Box Model Example"
-  authorName="Carlos Serrano"
-/>
+<BoxModel />
 
 ## Why is the Box Model important?
 
