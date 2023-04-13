@@ -19,7 +19,7 @@ head:
 
 <script setup>
   import PostAuthors from '../.vitepress/components/PostAuthors.vue'
-  import BoxModel from '../.vitepress/components/BoxModel.vue'
+  import BoxModel from '../.vitepress/components/everything-is-a-box/BoxModel.vue'
 </script>
 
 # Everything is a box
