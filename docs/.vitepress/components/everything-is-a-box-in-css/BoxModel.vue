@@ -44,10 +44,9 @@ export default {
 
   position: relative;
   width: 100%;
-
+  min-width: 17rem;
   background-color: var(--background-color);
-  aspect-ratio: 12/7;
-  padding: 15px;
+  padding: 15px 0 70%;
 }
 
 .header {
@@ -64,7 +63,7 @@ export default {
 .box-model-area {
   cursor: pointer;
   width: calc(100% - 7rem);
-  aspect-ratio: 16/9;
+  aspect-ratio: 13/9;
   border-radius: 0.2rem;
   position: absolute;
   top: 50%;
@@ -78,12 +77,13 @@ export default {
 
 .box-model-area::before {
   position: absolute;
-  top: 0.3rem;
+  top: 0.5rem;
   left: 50%;
   transform: translateX(-50%);
 }
 
 .margin-area {
+  width: calc(100% - 1rem);
   background-color: var(--margin-color);
   top: 0;
   transform: translateX(-50%);
@@ -111,11 +111,36 @@ export default {
 
 .content-area {
   background-color: var(--content-color);
+  min-width: 3rem;
 }
 
 .content-area::before {
   content: "Content";
   top: 50%;
   transform: translate(-50%, -50%);
+}
+
+@media screen and (max-width: 600px) {
+  .box-model-wrapper {
+    font-size: 0.7rem;
+  }
+}
+
+@media screen and (max-width: 485px) {
+  .box-model-area {
+    width: calc(100% - 4.5rem);
+  }
+
+  .box-model-area::before {
+    top: 0.1rem;
+  }
+
+  .margin-area {
+    width: calc(100% - 1rem);
+  }
+
+  .content-area::before {
+    top: 50%;
+  }
 }
 </style>
