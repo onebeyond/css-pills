@@ -1,111 +1,115 @@
-import { defineConfig } from 'vitepress';
+import { defineConfig } from "vitepress";
 
 export default defineConfig({
   head: [
     [
-      'link',
+      "link",
       {
-        rel: 'icon',
-        type: 'image/png',
-        href: '/favicon.png',
+        rel: "icon",
+        type: "image/png",
+        href: "/favicon.png",
       },
     ],
     [
-      'meta',
+      "meta",
       {
-        property: 'og:title',
-        content: 'CSS Pills',
+        property: "og:title",
+        content: "CSS Pills",
       },
     ],
     [
-      'meta',
+      "meta",
       {
-        property: 'og:description',
-        content: 'Quick and concise CSS tips in 5 minutes or less',
+        property: "og:description",
+        content: "Quick and concise CSS tips in 5 minutes or less",
       },
     ],
     [
-      'meta',
+      "meta",
       {
-        property: 'og:image',
-        content: 'https://ob-css-pills-og.vercel.app/api/og',
+        property: "og:image",
+        content: "https://ob-css-pills-og.vercel.app/api/og",
       },
     ],
     [
-      'meta',
+      "meta",
       {
-        property: 'og:url',
-        content: 'https://onebeyond.github.io/css-pills/',
+        property: "og:url",
+        content: "https://onebeyond.github.io/css-pills/",
       },
     ],
     [
-      'meta',
+      "meta",
       {
-        name: 'twitter:card',
-        content: 'summary_large_image',
+        name: "twitter:card",
+        content: "summary_large_image",
       },
     ],
     [
-      'meta',
+      "meta",
       {
-        name: 'twitter:image',
-        content: 'https://ob-css-pills-og.vercel.app/api/og',
+        name: "twitter:image",
+        content: "https://ob-css-pills-og.vercel.app/api/og",
       },
     ],
     [
-      'script',
+      "script",
       {
-        src: 'https://cdn.usefathom.com/script.js',
+        src: "https://cdn.usefathom.com/script.js",
         defer: true,
-        'data-site': 'SNEUCKSC',
-        'data-honor-dnt': true,
+        "data-site": "SNEUCKSC",
+        "data-honor-dnt": true,
       },
     ],
   ],
-  base: '/css-pills/',
-  title: 'CSS Pills',
-  description: 'Quick and concise CSS tips in 5 minutes or less',
+  base: "/css-pills/",
+  title: "CSS Pills",
+  description: "Quick and concise CSS tips in 5 minutes or less",
   lastUpdated: true,
   // markdown: { lineNumbers: true, },
   themeConfig: {
     logo: {
-      src: '/favicon.png',
-      alt: 'CSS Pills logo',
+      src: "/favicon.png",
+      alt: "CSS Pills logo",
     },
     nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Pills', link: '/pills/' },
-      { text: 'Team', link: '/team' },
+      { text: "Home", link: "/" },
+      { text: "Pills", link: "/pills/" },
+      { text: "Team", link: "/team" },
     ],
     sidebar: [
       {
-        text: 'Pills',
+        text: "Pills",
         items: [
           {
-            text: 'What is HSL color in CSS',
-            link: '/pills/what-is-hsl-color-in-css',
+            text: "What is HSL color in CSS",
+            link: "/pills/what-is-hsl-color-in-css",
           },
           {
-            text: 'Understanding Logical Properties in CSS',
-            link: '/pills/understanding-logical-properties-in-css'
+            text: "Understanding Logical Properties in CSS",
+            link: "/pills/understanding-logical-properties-in-css",
+          },
+          {
+            text: "Everything is a box in CSS",
+            link: "/pills/everything-is-a-box-in-css",
           },
         ],
       },
     ],
     editLink: {
-      pattern: 'https://github.com/onebeyond/css-pills/edit/main/docs/:path',
+      pattern: "https://github.com/onebeyond/css-pills/edit/main/docs/:path",
     },
     footer: {
-      message: 'Released under the MIT License.',
-      copyright: 'Copyright © 2023 - One Beyond',
+      message: "Released under the MIT License.",
+      copyright: "Copyright © 2023 - One Beyond",
     },
     algolia: {
-      appId: 'WD40FDK2NM',
-      apiKey: '6dcec7234bbdb0a5f6f45c4210a03809',
-      indexName: 'css-pills',
+      appId: "WD40FDK2NM",
+      apiKey: "6dcec7234bbdb0a5f6f45c4210a03809",
+      indexName: "css-pills",
     },
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/onebeyond/css-pills' },
+      { icon: "github", link: "https://github.com/onebeyond/css-pills" },
     ],
   },
 });

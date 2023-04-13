@@ -1,5 +1,5 @@
 ---
-title: Everything is a box
+title: Everything is a box in CSS
 description: Learn about the CSS Box Model and understand why everything is a box in CSS.
 tags: ["layout", "box model"]
 head:
@@ -19,7 +19,7 @@ head:
 
 <script setup>
   import PostAuthors from '../.vitepress/components/PostAuthors.vue'
-  import BoxModel from '../.vitepress/components/everything-is-a-box/BoxModel.vue'
+  import BoxModel from '../.vitepress/components/everything-is-a-box-in-css/BoxModel.vue'
 </script>
 
 # Everything is a box
