@@ -16,3 +16,4 @@ Start improving your CSS skills today!
 - [What is HSL color in CSS and how to use it?](/pills/what-is-hsl-color-in-css)
 - [Understanding logical properties in CSS](/pills/understanding-logical-properties-in-css)
 - [Everything is a box in CSS](/pills/everything-is-a-box-in-css)
+- [Understanding z-index](/pills/understanding-z-index)
