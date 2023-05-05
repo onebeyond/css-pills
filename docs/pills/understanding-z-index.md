@@ -66,25 +66,68 @@ It's important to remember that `z-index` only works on elements that have a spe
 
 Even though, `.box-with-position` has a lower `z-index`, it will appear on top of the `.box-without-position` because it doesn't have a specified position.
 
-## Tips, Tricks, and Use Cases CONTINUAR POR AQUI
+## Tips, Tricks, and Use Cases
 
 Now that we've covered the basics, let's talk about some interesting tips, tricks, and use cases for `z-index`!
 
-### 1. The Default Value of `z-index`
+### 1. Using `z-index` with pseudo-elements
 
-As I mentioned earlier, the default value of `z-index` is `auto`. What you may not know is that `auto` isn't actually a specific value; it simply means that the element will be placed at its default position on the z-axis.
+Although pseudo-elements (like `::before` or `::after`) don't have a default `z-index` value, you can still use `z-index` to position them on the z-axis. Just assign an `absolute` or `relative` position to the pseudo-element and then add a `z-index` value.
 
-### 2. Using `z-index` with Pseudo-Elements
-
-Although pseudo-elements don't have a default `z-index` value, you can still use `z-index` to position them on the z-axis. Just assign an absolute or relative position to the pseudo-element and then add a `z-index` value.
-
-### 3. Using `z-index` to Create Parallax Effects
-
-An interesting way to use `z-index` is to create parallax effects. For example, you can create a background image and then overlay several elements with different `z-index` values. As the user scrolls down the page, the elements with lower `z-index` values will move more slowly than those with higher values, creating a sense of depth and movement.
-
-### 4. Be Careful with Extremely High `z-index` Values
+### 2. Be Careful with extremely high `z-index` values
 
 While it may be tempting to assign extremely high values to `z-index` to ensure that an element is always on top, this can have unintended consequences. For example, it can cause the element to cover up other important elements on the page, or it can make it difficult to interact with elements underneath it.
+
+### 3. Setting values will give you a clear vision
+
+A good practice is to set `z-index` variables in your CSS file. This way, you can easily see which elements have a higher `z-index` than others, and you can also change the values if necessary to have a wider vision.
+
+This will also give you a clear picture of how the elements are positioned on the z-axis and make it easier to debug any issues that may arise.
+
+```css
+:root {
+  --dropdown: 10;
+  --modal-backdrop: 20;
+  --modal-content: 30;
+  --popover: 40;
+}
+
+.dropdown {
+  position: relative;
+  z-index: var(--dropdown);
+}
+```
+
+### 4. Be aware of children elements
+
+Imagine you have two divs `.one` and `.two` at the same level with `z-index` values `1` and `2`. The child of first div has a z-index value set as `3`, despite of having a higher `z-index` it won't overlap div `.two` because it inherits the `z-index` value of it's parent div and then apply itself `z-index` value as it is a decimal number, it will never reach the higher value of `.two` (parent-value **.** itself-value => 1.3)
+
+If you have 2 siblings elements, one with a `z-index` of `1` and the other with a `z-index` of `2`, the element with the higher `z-index` will appear on top of the other.
+However, if the element with the lower `z-index` has a child element with a `z-index` of `3`, it won't appear on top of the element with the higher `z-index` because it's still a child of the element with the lower `z-index`.
+
+```html
+<div class="two"></div>
+<div class="one">
+  <div class="three"></div>
+</div>
+```
+
+```css
+.one {
+  position: relative;
+  z-index: 1;
+}
+.two {
+  position: relative;
+  z-index: 2;
+}
+.three {
+  position: relative;
+  z-index: 3;
+}
+```
+
+EL TRQUITO DE LOS DECIMALES EN ZINDEX ----------------
 
 ## Conclusion
 
