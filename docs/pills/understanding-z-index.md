@@ -100,8 +100,6 @@ This will also give you a clear picture of how the elements are positioned on th
 
 ### 4. Be aware of children elements
 
-Imagine you have two divs `.one` and `.two` at the same level with `z-index` values `1` and `2`. The child of first div has a z-index value set as `3`, despite of having a higher `z-index` it won't overlap div `.two` because it inherits the `z-index` value of it's parent div and then apply itself `z-index` value as it is a decimal number, it will never reach the higher value of `.two` (parent-value **.** itself-value => 1.3)
-
 If you have 2 siblings elements, one with a `z-index` of `1` and the other with a `z-index` of `2`, the element with the higher `z-index` will appear on top of the other.
 However, if the element with the lower `z-index` has a child element with a `z-index` of `3`, it won't appear on top of the element with the higher `z-index` because it's still a child of the element with the lower `z-index`.
 
@@ -127,12 +125,12 @@ However, if the element with the lower `z-index` has a child element with a `z-i
 }
 ```
 
-EL TRQUITO DE LOS DECIMALES EN ZINDEX ----------------
-
 ## Conclusion
 
-I hope this guide has been helpful in understanding the use of the `z-index` property in CSS. Remember that it's important to use `z-index` carefully and thoughtfully, taking into account its effects on the visual hierarchy of your page.
+Using `z-index` carelessly or excessively can cause problems. As, one of the main issues with `z-index` is that it can easily create confusion and unexpected behaviors in your layout, especially when dealing with multiple overlapping elements.
 
-NO SE DEBE USAR
+Additionally, `z-index` can also lead to accessibility issues, as it can obscure content and make it difficult or impossible for users to interact with it. This is especially true for users who rely on assistive technologies such as screen readers.
+
+But with careful use, z-index can be a useful tool for creating certain designs and effects like dropdowns menu, transparency effects and solve any overlapping issue you might have in your website.  
 
 <PostAuthors :authors="['baumannzone', 'eduvilla97', 'arshiasaleem98', 'arturogbruno']" />
