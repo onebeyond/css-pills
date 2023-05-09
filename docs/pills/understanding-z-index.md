@@ -1,20 +1,20 @@
 ---
-title: What is HSL color format in CSS and how to use it?
-description: Learn how to use HSL color in CSS, the color format used by CSS experts that you might not know.
-tags: ["color", "format"]
+title: "z-index in CSS: tips, tricks, and use cases"
+description: "Learn how to use z-index in CSS, the property that controls the position of elements on the z-axis."
+tags: ["layout", "positioning"]
 head:
   - - meta
     - property: "og:image"
-      content: https://ob-css-pills-og.vercel.app/api/og?title=What%20is%20HSL%20color%20format%20in%20CSS%20and%20how%20to%20use%20it
+      content: https://ob-css-pills-og.vercel.app/api/og?title=z-index%20in%20CSS:%20tips,%20tricks,%20and%20use%20cases
   - - meta
     - name: "twitter:image"
-      content: https://ob-css-pills-og.vercel.app/api/og?title=What%20is%20HSL%20color%20format%20in%20CSS%20and%20how%20to%20use%20it
+      content: https://ob-css-pills-og.vercel.app/api/og?title=z-index%20in%20CSS:%20tips,%20tricks,%20and%20use%20cases
   - - meta
     - property: "og:title"
-      content: "What is HSL color format in CSS and how to use it?"
+      content: "z-index in CSS: tips, tricks, and use cases"
   - - meta
     - property: "og:description"
-      content: "Learn how to use HSL color in CSS, the color format used by CSS experts that you might not know."
+      content: "Learn how to use z-index in CSS, the property that controls the position of elements on the z-axis."
 ---
 
 <script setup>
@@ -39,7 +39,8 @@ By default, all elements have a `z-index` of `auto`, which means that their posi
 
 However, if you have two overlapping `div` elements on your page and you want to manipulate their position in the `z-axis`, you can use `z-index`. Generally, if a `div` has a higher `z-index` it will appear on top of other elements, but there are some exceptions to this rule.
 
--- COMPONENTE DE EJEMPLO -- https://developer.mozilla.org/en-US/docs/Web/CSS/z-index
+-- COMPONENTE DE EJEMPLO --
+https://developer.mozilla.org/en-US/docs/Web/CSS/z-index
 
 ## Values of `z-index`
 
