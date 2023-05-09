@@ -70,15 +70,7 @@ Even though, `.box-with-position` has a lower `z-index`, it will appear on top o
 
 Now that we've covered the basics, let's talk about some interesting tips, tricks, and use cases for `z-index`!
 
-### 1. Using `z-index` with pseudo-elements
-
-Although pseudo-elements (like `::before` or `::after`) don't have a default `z-index` value, you can still use `z-index` to position them on the z-axis. Just assign an `absolute` or `relative` position to the pseudo-element and then add a `z-index` value.
-
-### 2. Be Careful with extremely high `z-index` values
-
-While it may be tempting to assign extremely high values to `z-index` to ensure that an element is always on top, this can have unintended consequences. For example, it can cause the element to cover up other important elements on the page, or it can make it difficult to interact with elements underneath it.
-
-### 3. Setting values will give you a clear vision
+### 1. Setting values will give you a clear vision
 
 A good practice is to set `z-index` variables in your CSS file. This way, you can easily see which elements have a higher `z-index` than others, and you can also change the values if necessary to have a wider vision.
 
@@ -86,10 +78,10 @@ This will also give you a clear picture of how the elements are positioned on th
 
 ```css
 :root {
-  --dropdown: 10;
-  --modal-backdrop: 20;
-  --modal-content: 30;
-  --popover: 40;
+  --dropdown: 100;
+  --modal-backdrop: 200;
+  --modal-content: 300;
+  --popover: 400;
 }
 
 .dropdown {
@@ -97,6 +89,22 @@ This will also give you a clear picture of how the elements are positioned on th
   z-index: var(--dropdown);
 }
 ```
+
+### 2. Logic behind 100-unit `z-index` increments
+
+I prefer using relatively high `z-index` values for my projects, and I find it helpful to space them out by intervals of `100`.
+
+For example, if there are three elements that need to be stacked and their order is defined, the first one would have a `z-index` of 0, the second 100, and the third 200.
+
+This approach allows for some flexibility in case an additional element needs to be inserted between the second and third elements in the future. In that case, a `z-index` of 110 could be used, but you can use any interval you want according to your needs.
+
+If we had used `z-index` values of 1, 2, and 3, this option would not be available.
+
+### 3. Be Careful with extremely high `z-index` values
+
+While it may be tempting to assign extremely high values to `z-index` to ensure that an element is always on top, this can have unintended consequences. For example, it can cause the element to cover up other important elements on the page, or it can make it difficult to interact with elements underneath it.
+
+I would also recommend using a number like `9999` as the _absolute top ever value_ for `z-index`, which would be visually distinguishable from the regular numbering convention. This would ensure that the highest `z-index` value in the layout is easily recognizable and can be used for elements that need to be placed on top of everything else.
 
 ### 4. Be aware of children elements
 
@@ -125,12 +133,16 @@ However, if the element with the lower `z-index` has a child element with a `z-i
 }
 ```
 
+### 5. Avoid negative `z-index` values
+
+Using negative `z-index` values can cause a headache or unexpected behavior, so if you don't want to bury elements under the `body` or `html` elements, you should avoid using negative values.
+
 ## Conclusion
 
 Using `z-index` carelessly or excessively can cause problems. As, one of the main issues with `z-index` is that it can easily create confusion and unexpected behaviors in your layout, especially when dealing with multiple overlapping elements.
 
 Additionally, `z-index` can also lead to accessibility issues, as it can obscure content and make it difficult or impossible for users to interact with it. This is especially true for users who rely on assistive technologies such as screen readers.
 
-But with careful use, z-index can be a useful tool for creating certain designs and effects like dropdowns menu, transparency effects and solve any overlapping issue you might have in your website.  
+But with careful use, z-index can be a useful tool for creating certain designs and effects like dropdowns menu, transparency effects and solve any overlapping issue you might have in your website.
 
 <PostAuthors :authors="['baumannzone', 'eduvilla97', 'arshiasaleem98', 'arturogbruno']" />
