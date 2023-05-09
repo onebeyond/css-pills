@@ -143,6 +143,8 @@ Using `z-index` carelessly or excessively can cause problems. As, one of the mai
 
 Additionally, `z-index` can also lead to accessibility issues, as it can obscure content and make it difficult or impossible for users to interact with it. This is especially true for users who rely on assistive technologies such as screen readers.
 
-But with careful use, z-index can be a useful tool for creating certain designs and effects like dropdowns menu, transparency effects and solve any overlapping issue you might have in your website.
+Generally, you should always avoid using `z-index` unless you don't have another option. This means you should try structuring your HTML in a way that doesn't require using `z-index` to position elements, because the order of elements in HTML matters and it's easier to maintain than using `z-index`.
+
+But if you use `z-index` carefully, it can be a useful tool for creating certain designs and effects like dropdowns menu, transparency effects and solve any overlapping issue you might have in your website.
 
 <PostAuthors :authors="['baumannzone', 'eduvilla97', 'arshiasaleem98', 'arturogbruno']" />
