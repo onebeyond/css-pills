@@ -93,6 +93,10 @@ export default defineConfig({
             text: "Everything is a box in CSS",
             link: "/pills/everything-is-a-box-in-css",
           },
+          {
+            text: "z-index in CSS: tips, tricks and use cases",
+            link: "/pills/z-index-in-css-tips-tricks-and-use-cases",
+          },
         ],
       },
     ],

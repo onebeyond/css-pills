@@ -20,11 +20,10 @@
   },
   "homepage": "https://github.com/onebeyond/css-pills#readme",
   "devDependencies": {
-    "front-matter": "^4.0.2",
-    "vitepress": "^1.0.0-alpha.36",
+    "vitepress": "^1.0.0-alpha.75",
     "vue": "^3.2.47"
   },
   "dependencies": {
-    "algoliasearch": "^4.14.3"
+    "algoliasearch": "^4.17.0"
   }
 }
