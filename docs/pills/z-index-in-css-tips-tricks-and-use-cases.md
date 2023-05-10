@@ -19,6 +19,7 @@ head:
 
 <script setup>
   import PostAuthors from '../.vitepress/components/PostAuthors.vue'
+  import ZIndex from '../.vitepress/components/z-index-in-css-tips-tricks-and-use-cases/index.vue'
 </script>
 
 # Understanding z-index in CSS: Tips, Tricks, and Use Cases
@@ -39,8 +40,7 @@ By default, all elements have a `z-index` of `auto`, which means that their posi
 
 However, if you have two overlapping `div` elements on your page and you want to manipulate their position in the `z-axis`, you can use `z-index`. Generally, if a `div` has a higher `z-index` it will appear on top of other elements, but there are some exceptions to this rule.
 
--- COMPONENTE DE EJEMPLO --
-https://developer.mozilla.org/en-US/docs/Web/CSS/z-index
+<ZIndex />
 
 ## Values of `z-index`
 
@@ -67,7 +67,7 @@ It's important to remember that `z-index` only works on elements that have a spe
 
 Even though, `.box-with-position` has a lower `z-index`, it will appear on top of the `.box-without-position` because it doesn't have a specified position.
 
-## Tips, Tricks, and Use Cases
+## Tips, tricks, and use cases
 
 Now that we've covered the basics, let's talk about some interesting tips, tricks, and use cases for `z-index`!
 
