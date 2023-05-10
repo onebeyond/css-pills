@@ -93,7 +93,7 @@ This will also give you a clear picture of how the elements are positioned on th
 
 ### 2. Logic behind 100-unit `z-index` increments
 
-I prefer using relatively high `z-index` values for my projects, and I find it helpful to space them out by intervals of `100`.
+Another helpful trick consists on using relatively high `z-index` values and space them out by intervals of `100`.
 
 For example, if there are three elements that need to be stacked and their order is defined, the first one would have a `z-index` of 0, the second 100, and the third 200.
 
@@ -105,7 +105,7 @@ If we had used `z-index` values of 1, 2, and 3, this option would not be availab
 
 While it may be tempting to assign extremely high values to `z-index` to ensure that an element is always on top, this can have unintended consequences. For example, it can cause the element to cover up other important elements on the page, or it can make it difficult to interact with elements underneath it.
 
-I would also recommend using a number like `9999` as the _absolute top ever value_ for `z-index`, which would be visually distinguishable from the regular numbering convention. This would ensure that the highest `z-index` value in the layout is easily recognizable and can be used for elements that need to be placed on top of everything else.
+We would also recommend using a number like `9999` as the _absolute top ever value_ for `z-index`, which would be visually distinguishable from the regular numbering convention. This would ensure that the highest `z-index` value in the layout is easily recognizable and can be used for elements that need to be placed on top of everything else.
 
 ### 4. Be aware of children elements
 
@@ -140,7 +140,7 @@ Using negative `z-index` values can cause a headache or unexpected behavior, so 
 
 ## Conclusion
 
-Using `z-index` carelessly or excessively can cause problems. As, one of the main issues with `z-index` is that it can easily create confusion and unexpected behaviors in your layout, especially when dealing with multiple overlapping elements.
+Using `z-index` carelessly or excessively can cause problems. One of the main issues with `z-index` is that it can easily create confusion and unexpected behaviors in your layout, especially when dealing with multiple overlapping elements.
 
 Additionally, `z-index` can also lead to accessibility issues, as it can obscure content and make it difficult or impossible for users to interact with it. This is especially true for users who rely on assistive technologies such as screen readers.
 
