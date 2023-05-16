@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="container">
+    <div class="demo-container">
       <div
         class="background"
         :style="{ 'z-index': zIndex, background: searchText }"
@@ -67,7 +67,7 @@ export default {
 </script>
 
 <style scoped>
-.container {
+.demo-container {
   width: 300px;
   margin: 4rem auto;
   position: relative;
