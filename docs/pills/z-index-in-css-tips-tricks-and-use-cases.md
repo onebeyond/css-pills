@@ -19,7 +19,8 @@ head:
 
 <script setup>
   import PostAuthors from '../.vitepress/components/PostAuthors.vue'
-  import ZIndex from '../.vitepress/components/z-index-in-css-tips-tricks-and-use-cases/index.vue'
+  import HoverZIndex from '../.vitepress/components/z-index-in-css-tips-tricks-and-use-cases/HoverZIndex.vue'
+  import SliderZIndex from '../.vitepress/components/z-index-in-css-tips-tricks-and-use-cases/SliderZIndex.vue'
 </script>
 
 # Understanding z-index in CSS: Tips, Tricks, and Use Cases
@@ -36,11 +37,13 @@ The `z` in `z-index` refers to the z axis:
 - `y` is up/down
 - `z` is forward/backward
 
+<HoverZIndex />
+
 By default, all elements have a `z-index` of `auto`, which means that their position on the z-axis is determined by their order in the HTML and in the normal flow of the document.
 
 However, if you have two overlapping `div` elements on your page and you want to manipulate their position in the `z-axis`, you can use `z-index`. Generally, if a `div` has a higher `z-index` it will appear on top of other elements, but there are some exceptions to this rule.
 
-<ZIndex />
+<SliderZIndex />
 
 ## Values of `z-index`
 

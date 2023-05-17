@@ -1,10 +1,7 @@
 <template>
   <div>
     <div class="demo-container">
-      <div
-        class="background"
-        :style="{ 'z-index': zIndex, background: searchText }"
-      >
+      <div class="background" :style="{ 'z-index': zIndex }">
         change my z-index
       </div>
       <div class="wrapper-one">
@@ -21,7 +18,7 @@
     <div class="control-bar">
       <form>
         <label for="position-slider">
-          Use this slider to change the z-index of the yellow box
+          Use this slider to change the code of the yellow box
         </label>
         <input
           type="range"
@@ -51,17 +48,11 @@
 
 <script>
 export default {
-  name: "ZIndex",
+  name: "SliderZIndex",
   data() {
     return {
       zIndex: 0,
-      searchText: "",
     };
-  },
-  methods: {
-    changeZIndex() {
-      console.log("changeZIndex");
-    },
   },
 };
 </script>
@@ -71,23 +62,6 @@ export default {
   width: 300px;
   margin: 4rem auto;
   position: relative;
-}
-
-
-.demo-container:hover {
-  transform: perspective(500px) rotateY(60deg);
-  transition: transform 1s;
-}
-.demo-container:hover .one {
-  transform: perspective(500px) translate3d(300px, -30px, 300px);
-  transition: transform 1s;
-}
-.demo-container:hover .two {
-  transform: perspective(500px) translate3d(200px, -20px, 200px);
-  transition: transform 1s;
-}
-.demo-container:hover .three {
-  transform: perspective(500px) translate3d(100px, -10px, 100px);
   transition: transform 1s;
 }
 
@@ -99,7 +73,6 @@ export default {
   align-items: center;
   justify-content: center;
   background-color: beige;
-  /* z-index: 1; */
 }
 .child {
   display: flex;
