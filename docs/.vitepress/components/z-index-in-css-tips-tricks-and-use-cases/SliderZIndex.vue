@@ -1,10 +1,7 @@
 <template>
   <div>
     <div class="demo-container">
-      <div
-        class="background"
-        :style="{ 'z-index': zIndex, background: searchText }"
-      >
+      <div class="background" :style="{ 'z-index': zIndex }">
         change my z-index
       </div>
       <div class="wrapper-one">
@@ -51,17 +48,11 @@
 
 <script>
 export default {
-  name: "ZIndex",
+  name: "SliderZIndex",
   data() {
     return {
       zIndex: 0,
-      searchText: "",
     };
-  },
-  methods: {
-    changeZIndex() {
-      console.log("changeZIndex");
-    },
   },
 };
 </script>
@@ -71,6 +62,7 @@ export default {
   width: 300px;
   margin: 4rem auto;
   position: relative;
+  transition: transform 1s;
 }
 
 .background {
@@ -81,7 +73,6 @@ export default {
   align-items: center;
   justify-content: center;
   background-color: beige;
-  /* z-index: 1; */
 }
 .child {
   display: flex;
