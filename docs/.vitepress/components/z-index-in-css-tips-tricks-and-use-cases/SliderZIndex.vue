@@ -18,7 +18,7 @@
     <div class="control-bar">
       <form>
         <label for="position-slider">
-          Use this slider to change the code of the yellow box
+          Use this slider to change the z-index of the yellow box
         </label>
         <input
           type="range"
