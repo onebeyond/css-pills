@@ -13,7 +13,7 @@
 
 <script>
 export default {
-  name: "HoverZIndex",
+  name: 'HoverZIndex',
   data() {
     return {
       zIndex: 0,
@@ -23,6 +23,19 @@ export default {
 </script>
 
 <style scoped>
+.demo-container {
+  /* THEME COLORS */
+  --background-color: #fff;
+  --border-color: #333;
+  --header-color: #9dba85;
+  --left-color: #e3d46c;
+  --right-color: #6fbbb6;
+  --child-border-color: white;
+  --header-border-color: #9dba85;
+  --left-border-color: #e3d46c;
+  --right-border-color: #6fbbb6;
+}
+
 .title {
   text-align: center;
   margin-block-start: 2rem;
@@ -33,16 +46,16 @@ export default {
   max-width: 400px;
   height: 270px;
   grid-template-areas:
-    "header header header"
-    "left left right"
-    "left left right";
+    'header header header'
+    'left left right'
+    'left left right';
   grid-template-rows: 30% 1fr;
   grid-template-columns: 1fr 2fr 1fr;
   gap: 5px;
   margin: 2rem auto 4rem;
   padding: 10px;
-  background-color: white;
-  border: 5px solid #333;
+  background-color: var(--background-color);
+  border: 4px solid var(--border-color);
   perspective: 750px;
   transition: transform 1s;
 }
@@ -50,44 +63,46 @@ export default {
 .wrapper:hover {
   transform: perspective(800px) rotateY(-50deg);
 }
+
 .wrapper:hover .header {
   transform: translate3d(-120px, 0px, 240px);
-  background-color: rgb(68, 51, 255);
+  background-color: var(--header-color);
 }
 
 .wrapper:hover .left {
-  background-color: rgb(0, 179, 179);
+  background-color: var(--left-color);
   transform: translate3d(-25px, 0px, 50px);
 }
+
 .wrapper:hover .right {
   transform: translate3d(-75px, 0px, 150px);
-  background-color: rgb(230, 0, 103);
+  background-color: var(--right-color);
 }
 
 .child {
-  border: 5px solid;
+  border: 4px solid var(--child-border-color);
   transform: translate3d(0px, 0px, 0px);
   display: grid;
   place-items: center;
   color: white;
-  font-size: 1.75rem;
+  font-size: 1.3rem;
   font-weight: bold;
 }
 
 .header {
   grid-area: header / header / header / header;
-  border-color: rgb(68, 51, 255);
+  border-color: var(--header-border-color);
   transition: transform 500ms ease 350ms, background-color 250ms ease 350ms;
 }
 
 .left {
-  border-color: rgb(0, 179, 179);
+  border-color: var(--left-border-color);
   grid-area: left / left / left / left;
   transition: transform 200ms ease 250ms, background-color 250ms ease 250ms;
 }
 
 .right {
-  border-color: rgb(230, 0, 103);
+  border-color: var(--right-border-color);
   grid-area: right / right / right / right;
   transition: transform 250ms ease 300ms, background-color 250ms ease 300ms;
 }

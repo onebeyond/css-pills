@@ -1,8 +1,8 @@
 <template>
-  <div>
+  <div class="main-wrapper">
     <div class="demo-container">
       <div class="background" :style="{ 'z-index': zIndex }">
-        change my z-index
+        Change my z-index
       </div>
       <div class="wrapper-one">
         <div class="child blue one">z-index: 6</div>
@@ -48,7 +48,7 @@
 
 <script>
 export default {
-  name: "SliderZIndex",
+  name: 'SliderZIndex',
   data() {
     return {
       zIndex: 0,
@@ -58,6 +58,18 @@ export default {
 </script>
 
 <style scoped>
+.main-wrapper {
+  /* THEME COLORS */
+
+  --background-color: #fff;
+  --main-color: #ffdf50;
+  --main-border-color: #d8b130;
+  --blue-color: #87cdeb;
+  --blue-border-color: #65a6c5;
+  --red-color: #e7adad;
+  --red-border-color: #c47979;
+}
+
 .demo-container {
   width: 300px;
   margin: 4rem auto;
@@ -72,30 +84,52 @@ export default {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: beige;
+  background-color: var(--main-color);
+  border: 2px solid var(--main-border-color);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  font-size: 15px;
+  font-weight: bold;
+  color: #333;
 }
+
 .child {
   display: flex;
   height: 50px;
-  background-color: rgb(186, 195, 195);
   color: white;
+  border: 3px solid #bbb;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  font-size: 14px;
+  font-weight: bold;
+  align-items: bottom;
+  justify-content: bottom;
 }
 
 .wrapper-one {
   position: relative;
   top: -20px;
 }
+
 .wrapper-two {
   position: relative;
   bottom: -20px;
 }
 
 .blue {
-  align-items: end;
+  align-items: flex-end;
   justify-content: center;
-  background-color: blue;
+  background-color: var(--blue-color);
+  border: 2px solid var(--blue-border-color);
   position: relative;
-  border: 5px solid lightskyblue;
+}
+
+.blue:hover {
+  background-color: #78c4e9;
+}
+
+.red:hover {
+  background-color: #eaa0a0;
 }
 
 .one {
@@ -108,6 +142,7 @@ export default {
   margin-top: -20px;
   z-index: 4;
 }
+
 .three {
   margin-top: -20px;
   left: 30px;
@@ -117,9 +152,9 @@ export default {
 
 .red {
   justify-content: center;
-  background-color: red;
   position: relative;
-  border: 5px solid lightcoral;
+  background-color: var(--red-color);
+  border: 2px solid var(--red-border-color);
 }
 
 .four {
