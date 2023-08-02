@@ -17,3 +17,4 @@ Start improving your CSS skills today!
 - [Understanding logical properties in CSS](/pills/understanding-logical-properties-in-css)
 - [Everything is a box in CSS](/pills/everything-is-a-box-in-css)
 - [z-index in CSS: tips, tricks and use cases](/pills/z-index-in-css-tips-tricks-and-use-cases)
+- [Position fixed: defying gravity in CSS](/pills/position-fixed-defying-gravity-in-css)
