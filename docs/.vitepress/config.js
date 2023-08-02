@@ -97,6 +97,10 @@ export default defineConfig({
             text: "z-index in CSS: tips, tricks and use cases",
             link: "/pills/z-index-in-css-tips-tricks-and-use-cases",
           },
+          {
+            text: "Position fixed: defying gravity in CSS",
+            link: "/pills/position-fixed-defying-gravity-in-css",
+          },
         ],
       },
     ],

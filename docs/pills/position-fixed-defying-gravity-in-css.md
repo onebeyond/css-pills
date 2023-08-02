@@ -1,6 +1,6 @@
 ---
 title: "Position fixed: Defying gravity in CSS"
-description: Learn about Fixed positioning in CSS and how to use it.
+description: "Learn about Fixed positioning in CSS and how to use it along with some common traps you may encounter."
 tags: ["layout", "positioning"]
 head:
   - - meta
@@ -14,7 +14,7 @@ head:
       content: "Position fixed: Defying gravity in CSS"
   - - meta
     - property: "og:description"
-      content: "Learn about Fixed positioning in CSS and how to use it."
+      content: "Learn about Fixed positioning in CSS and how to use it along with some common traps you may encounter."
 ---
 
 <script setup>
@@ -113,4 +113,12 @@ findCulprits(document.querySelector(selector));
 
 Fixed positioning is a powerful tool that can be used to create a variety of effects. It's particularly useful for creating elements that remain visible regardless of how far down the page the user has scrolled.
 
-<PostAuthors :authors="['baumannzone', 'arturogbruno', 'eduvilla97']" />
+Here is a CodePen with an example of fixed positioning in action.
+
+<iframe height="400" style="width: 100%;" scrolling="no" title="Pool CSS" src="https://codepen.io/baumannzone/embed/preview/zYMJJRb?default-tab=result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href="https://codepen.io/baumannzone/pen/zYMJJRb">
+  Pool CSS</a> by Jorge Baumann (<a href="https://codepen.io/baumannzone">@baumannzone</a>)
+  on <a href="https://codepen.io">CodePen</a>.
+</iframe>
+
+<PostAuthors :authors="['baumannzone', 'arturogbruno', 'eduvilla97']" random/>
