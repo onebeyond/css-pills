@@ -66,7 +66,6 @@ export default defineConfig({
   title: "CSS Pills",
   description: "Quick and concise CSS tips in 5 minutes or less",
   lastUpdated: true,
-  // markdown: { lineNumbers: true, },
   themeConfig: {
     logo: {
       src: "/favicon.png",
