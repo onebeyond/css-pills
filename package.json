@@ -1,7 +1,8 @@
 {
   "name": "css-pills",
   "version": "1.0.0",
-  "description": "",
+  "description": "Repository of CSS tricks that you can use in your projects. Learn in 5 minutes or less.",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "dev": "vitepress dev docs",
