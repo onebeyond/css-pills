@@ -1,9 +1,19 @@
 /* TODO CHANGE CUSTOM CSS */
 
-:root {
+/* :root {
   --vp-c-brand: hsl(198, 93%, 60%);
-  --vp-c-brand-light: hsl(198 100% 70%);
-  --vp-c-brand-lighter: hsl(198 100% 85%);
-  --vp-c-brand-dark: hsl(198 100% 45%);
-  --vp-c-brand-darker: hsl(198 100% 35%);
+  --vp-c-brand-light: hsl(198, 100%, 70%);
+  --vp-c-brand-lighter: hsl(198, 100%, 85%);
+  --vp-c-brand-dark: hsl(198, 100%, 45%);
+  --vp-c-brand-darker: hsl(198, 100%, 35%);
+} */
+
+:root {
+  --vp-c-brand-1: hsl(198, 93%, 60%);
+  --vp-c-brand-2: hsl(198, 100%, 70%);
+  --vp-c-brand-3: hsl(198, 100%, 60%);
+  --vp-c-brand-soft: hsl(198, 100%, 95%);
+
+  /* DEPRECATED: Use `--vp-c-brand-1` instead. */
+  --vp-c-brand: var(--vp-c-brand-1);
 }

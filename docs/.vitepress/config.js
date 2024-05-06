@@ -100,6 +100,10 @@ export default defineConfig({
             text: "Position fixed: defying gravity in CSS",
             link: "/pills/position-fixed-defying-gravity-in-css",
           },
+          {
+            text: "Flow layout in CSS: the default layout",
+            link: "/pills/flow-layout-in-css-the-default-layout",
+          }
         ],
       },
     ],
