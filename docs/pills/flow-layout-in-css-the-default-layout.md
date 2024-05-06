@@ -1,17 +1,17 @@
 ---
-title: "Flow layout in CSS: The conductor of the web symphony"
+title: "Flow layout in CSS: The default layout"
 description: "Learn about the Flow layout in CSS and how it orchestrates the arrangement of content across the digital stage."
 tags: ["layout", "positioning"]
 head:
   - - meta
     - property: "og:image"
-      content: https://ob-css-pills-og.vercel.app/api/og?title=Flow%20layout%20in%20CSS:%20The%20conductor%20of%20the%20web%20symphony
+      content: https://ob-css-pills-og.vercel.app/api/og?title=Flow%20layout%20in%20CSS:%20The%20default%20layout
   - - meta
     - name: "twitter:image"
-      content: https://ob-css-pills-og.vercel.app/api/og?title=Flow%20layout%20in%20CSS:%20The%20conductor%20of%20the%20web%20symphony
+      content: https://ob-css-pills-og.vercel.app/api/og?title=Flow%20layout%20in%20CSS:%20The%20default%20layout
   - - meta
     - property: "og:title"
-      content: "Flow layout in CSS: The conductor of the web symphony"
+      content: "Flow layout in CSS: The default layout"
   - - meta
     - property: "og:description"
       content: "Learn about the Flow layout in CSS and how it orchestrates the arrangement of content across the digital stage."
@@ -58,7 +58,7 @@ a.nav-link {
 }
 ```
 
-There is an hybrid element, the **inline-block** element, which combines the characteristics of both block and inline elements. It flows horizontally like an inline element but allows for height and width properties like a block element.
+There is an hybrid property as well, the **inline-block** value, which combines the characteristics of both block and inline elements. It flows horizontally like an inline element but allows for height and width properties like a block element.
 
 ```css
 /* Transform an inline element into an inline-block element */
